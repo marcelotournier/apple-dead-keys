@@ -1,0 +1,5 @@
+#!/bin/bash
+# copy the .xkbmap file to $HOME
+# add command to the "Startup application" in ubuntu
+# or copy this file to ~/.local/bin
+xkbcomp $HOME/.xkbmap ":0"
